@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aplica fondo #222222 a todo el body */
+body {
+  @apply bg-[#222222] text-white;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Clase .container-box para contenedores #2A2A2A */
+.container-box {
+  @apply bg-[#2A2A2A] p-4 rounded;
+}
+
+/* Clase .btn-2A2A2A para botones con fondo #2A2A2A */
+.btn-2A2A2A {
+  @apply bg-[#2A2A2A] text-sm rounded px-4 py-2 flex items-center gap-2;
+}
+.btn-2A2A2A:hover {
+  @apply bg-gray-700;
+}
